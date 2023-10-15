@@ -9,9 +9,7 @@ import UIKit
 
 class QuestionViewController: UIViewController {
     // MARK: - Properties
-    
-    // MARK: 1
-    
+    // 1
     private let answerOneButton = UIButton()
     private let answerTwoButton = UIButton()
     private let answerThreeButton = UIButton()
@@ -19,7 +17,7 @@ class QuestionViewController: UIViewController {
     
     private let singleContainer = UIStackView()
     
-    // MARK: 2
+    // 2
     private let answerOneLabel = UILabel()
     private let answerTwoLabel = UILabel()
     private let answerThreeLabel = UILabel()
@@ -39,7 +37,7 @@ class QuestionViewController: UIViewController {
     
     private let multipleContainer = UIStackView()
     
-    // MARK: 3
+    // 3
     private let rangedSlider = UISlider()
     private let questionMinThreeLabel = UILabel()
     private let questionMaxThreeLabel = UILabel()
@@ -153,7 +151,6 @@ private extension QuestionViewController {
     }
     
     func setupQuestionTitle() {
-        questionLabel.text = "LABEL"
         questionLabel.font = .systemFont(ofSize: 20)
         questionLabel.numberOfLines = 0
     }
