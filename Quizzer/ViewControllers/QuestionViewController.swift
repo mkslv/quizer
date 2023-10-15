@@ -88,7 +88,7 @@ class QuestionViewController: UIViewController {
     
     @objc
     func rangedButtonPressed() {
-        let index = lrintf(rangedSlider.value) // TODO: Learn more
+        let index = lrintf(rangedSlider.value - 1) // TODO: Learn more
         answersChosen.append(currentAnswers[index])
         print(currentAnswers[index])
         nextQuestion()
