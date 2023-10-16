@@ -75,7 +75,4 @@ enum Animal: Character {
             return "Ваша сила - в мудрости. Медленный и вдумчивый выигрывает на больших дистанциях."
         }
     }
-    static func getResultOfQuizz() {
-        
-    }
 }
