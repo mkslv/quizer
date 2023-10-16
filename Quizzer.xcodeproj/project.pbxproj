@@ -27,7 +27,7 @@
 		51D75E932ADAF4630009E504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51D75E992ADB02900009E504 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		51D75E9C2ADB48CC0009E504 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
-		51D75EA12ADC332A0009E504 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Question.swift; path = ../Question.swift; sourceTree = "<group>"; };
+		51D75EA12ADC332A0009E504 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			children = (
 				51D75E852ADAF4610009E504 /* AppDelegate.swift */,
 				51D75E872ADAF4610009E504 /* SceneDelegate.swift */,
-				51D75EA02ADB48EB0009E504 /* Models */,
+				51D75EA32ADD787D0009E504 /* Models */,
 				51D75E9B2ADB48AD0009E504 /* ViewControllers */,
 				51D75E8E2ADAF4630009E504 /* Assets.xcassets */,
 				51D75E902ADAF4630009E504 /* LaunchScreen.storyboard */,
@@ -81,7 +81,7 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		51D75EA02ADB48EB0009E504 /* Models */ = {
+		51D75EA32ADD787D0009E504 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				51D75EA12ADC332A0009E504 /* Question.swift */,
