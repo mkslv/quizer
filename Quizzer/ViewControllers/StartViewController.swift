@@ -53,7 +53,7 @@ private extension StartViewController {
 private extension StartViewController {
     func addSubviews() {
         [firstAnimalLabel, secondAnimalLabel, thirdAnimalLabel, fourthAnimalLabel,
-         centreContainer, welcomeLabel, beginButton].forEach { subview in
+         centreContainer].forEach { subview in
             view.addSubview(subview)
         }
     }
@@ -65,7 +65,6 @@ private extension StartViewController {
         
         centreContainer.addArrangedSubview(welcomeLabel)
         centreContainer.addArrangedSubview(beginButton)
-        
     }
     
     func setupLabels() {
@@ -82,7 +81,6 @@ private extension StartViewController {
         }
         welcomeLabel.font = .boldSystemFont(ofSize: 28)
         welcomeLabel.textAlignment = .center //не уверен нужно ли это тут?
-        
     }
     
     func setupButton() {
@@ -91,7 +89,6 @@ private extension StartViewController {
         beginButton.setTitleColor(.systemCyan.withAlphaComponent(0.6), for: .highlighted)
         beginButton.addTarget(self, action: #selector(startButtonTapped), for: .touchUpInside)
     }
-    
 }
 
 // MARK: - Layout

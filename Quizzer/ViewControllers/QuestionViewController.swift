@@ -68,7 +68,6 @@ class QuestionViewController: UIViewController {
         let tag = sender.tag
         let currentAnswer = currentAnswers[tag - 1]  // Assuming currentAnswers is zero-based
         answersChosen.append(currentAnswer)
-        print(currentAnswer)
         nextQuestion()
     }
     
@@ -78,7 +77,6 @@ class QuestionViewController: UIViewController {
         for (multipleSwich, answer) in zip(multipleSwich, currentAnswers) {
             if multipleSwich.isOn {
                 answersChosen.append(answer)
-                print(answer)
             }
         }
         nextQuestion()
@@ -88,7 +86,6 @@ class QuestionViewController: UIViewController {
     func rangedButtonPressed() {
         let index = lrintf(rangedSlider.value - 1) // TODO: Learn more
         answersChosen.append(currentAnswers[index])
-        print(currentAnswers[index])
         nextQuestion()
     }
     

@@ -49,6 +49,7 @@ final class ResultViewController: UIViewController {
 private extension ResultViewController {
     func setupView() {
         addSubviews()
+        
         view.backgroundColor = .white
         setupResultLable()
         setupDescriptionLable()
@@ -102,10 +103,6 @@ private extension ResultViewController {
     
     func setupCloseButton() {
         let closeButton = UIBarButtonItem(title: "Завершить", style: .plain, target: self, action: #selector(backButtonTapped))
-//        closeButton.title = "Done"
-//        closeButton.style = .plain
-//        closeButton.target = self
-//        closeButton.action = #selector(closeButtonTapped)
         navigationItem.rightBarButtonItem = closeButton
     }
 }
